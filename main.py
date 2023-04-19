@@ -38,13 +38,14 @@ def load_LLM():
 
 llm = load_LLM()
 
-st.set_page_config(page_title="Globalize Email", page_icon=":robot:")
-st.header("Globalize Text")
+st.set_page_config(page_title="Email Translator", page_icon=":robot:")
+st.header("Email Translator")
 
 col1, col2 = st.columns(2) 
 
 with col1:
-    st.markdown("This application is powered by ChatGPT and build by Primus. You can ask questions to your documents")
+    st.markdown("This application is powered by ChatGPT and build by Primus. You can translate your emails from spanish to english")
+    st.markdown("Esta aplicacion desarrollada por Primus utiliza ChatGPT. Aca puedes traducir y dar formato a tus correos de ingles a español")
 
 with col2:
     st.image(image="logoprimus.png", width=500)

@@ -1,3 +1,3 @@
-# Text Langchain-Streamlit App
+# Email translator Streamlit App
 
-This repositoriy is a template to build new streamlit apps
+This repositoriy is for an email translator app developed by Primus.
